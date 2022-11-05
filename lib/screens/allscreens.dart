@@ -14,7 +14,6 @@ class MainPage extends StatefulWidget {
 class _MainPageState extends State<MainPage> {
   late PageController _pageController;
   int selectedIndex = 0;
-  bool _colorful = false;
   @override
   void initState() {
     super.initState();

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:mynewapp/catergories/Nails.dart';
-import 'package:mynewapp/catergories/coloring.dart';
-import 'package:mynewapp/catergories/extensions.dart';
-import 'package:mynewapp/catergories/haircut.dart';
+import 'package:mynewapp/HomePageComp/catergories/Nails.dart';
+import 'package:mynewapp/HomePageComp/catergories/coloring.dart';
+import 'package:mynewapp/HomePageComp/catergories/extensions.dart';
+import 'package:mynewapp/HomePageComp/catergories/haircut.dart';
 
-import '../catergories/facial.dart';
-import '../catergories/makeup.dart';
-import '../catergories/photography.dart';
-import '../catergories/styling.dart';
+import 'catergories/facial.dart';
+import 'catergories/makeup.dart';
+import 'catergories/photography.dart';
+import 'catergories/styling.dart';
 
 class CategoryCard extends StatelessWidget {
   const CategoryCard(
