@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:mynewapp/models/hairspecialist.dart';
 
-import '../components/categories.dart';
-import '../components/packages.dart';
-import '../components/title_section.dart';
+import 'categories.dart';
+import 'packages.dart';
+import '../models/title_section.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

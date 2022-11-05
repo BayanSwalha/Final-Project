@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mynewapp/screens/HomePage.dart';
+import 'package:mynewapp/HomePageComp/HomePage.dart';
 
 import 'screens/allscreens.dart';
 

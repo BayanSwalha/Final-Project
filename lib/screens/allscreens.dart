@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:mynewapp/screens/HomePage.dart';
+import 'package:mynewapp/HomePageComp/HomePage.dart';
 import 'package:sliding_clipped_nav_bar/sliding_clipped_nav_bar.dart';
+
+import '../components/search.dart';
 
 class MainPage extends StatefulWidget {
   const MainPage({Key? key}) : super(key: key);
@@ -83,14 +85,7 @@ List<Widget> _listOfWidget = <Widget>[
       color: Colors.brown,
     ),
   ),
-  Container(
-    alignment: Alignment.center,
-    child: const Icon(
-      Icons.bolt,
-      size: 56,
-      color: Colors.brown,
-    ),
-  ),
+  Search(),
   Container(
     alignment: Alignment.center,
     child: const Icon(
